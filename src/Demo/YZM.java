@@ -14,7 +14,7 @@ import java.util.Random;
 import java.awt.image.BufferedImage;
 
 /**
- * FJL
+ * FJL   上传成功
  **/
 @WebServlet(name = "YZM",urlPatterns = "/yzm")
 public class YZM  extends HttpServlet {
@@ -34,7 +34,7 @@ Random random =new Random();
            int x2=random.nextInt(91);
            int y2=random.nextInt(31);
            g.drawLine(x1, y1, x2, y2);
-
+             
              
            char[] chars={'1','2','3','4','5','6','7','8'};
            StringBuilder checkCode=new StringBuilder();
